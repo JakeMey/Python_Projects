@@ -1,4 +1,4 @@
-The program Geometry was developed based on a UML Class Diagram, which provided a visual representation of the classes and their relationships.
+The program Geometry was developed based on a UML Class Diagram, which provides a visual representation of the classes and their relationships.
 
 Geometry.py defines a Geometry class that demonstrates geometric shapes by creating two Rectangle and two Square objects, imported from Rectangle.py and Square.py projects.
 
