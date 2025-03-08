@@ -1,4 +1,4 @@
-#Created Square class
+#Creates Square class
 class Square:
 
     def __init__(self, name, length):
@@ -14,14 +14,14 @@ class Square:
     def __str__(self):
         return "Name: " + self.__name + "Length = " + self.__length
     
-    #Created calculateArea function for Square class to implement polymorphism
+    #Creates calculateArea function for Square class to implement polymorphism
     def calculateArea(self):
         area = self.__length * self.__length
         print("Area formula = length x length")
         print("Length = " + str(self.__length))
         print("Area of " + self.__name + ": " + str(area))
 
-    #Created calculatePerimieter function for Square class to implement polymorphism
+    #Creates calculatePerimieter function for Square class to implement polymorphism
     def calculatePerimeter(self):
         perimiter = 4 * self.__length
         print("Perimeter formula = 4 x length")

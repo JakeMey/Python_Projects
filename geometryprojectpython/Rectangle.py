@@ -1,4 +1,4 @@
-#Created Rectangle class
+#Creates Rectangle class
 class Rectangle:
 
     def __init__(self, name, length, width):
@@ -18,7 +18,7 @@ class Rectangle:
     def __str__(self):
         return "Name: " + self.__name + "\nLength = " + (self.__length) + "\nWidth = " + (self.__width)
     
-    #Created calculateArea function for Rectangle class to implement polymorphism
+    #Creates calculateArea function for Rectangle class to implement polymorphism
     def calculateArea(self):
         area = self.__length * self.__width
         print("Area formula = length x width")

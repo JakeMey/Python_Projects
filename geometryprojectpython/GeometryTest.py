@@ -1,19 +1,19 @@
-#Import Rectangle and Square classes from Rectangle.py and Square.py
+#Imports Rectangle and Square classes from Rectangle.py and Square.py
 from Rectangle import Rectangle
 from Square import Square
 
-#Created class with main() static function
+#Creates class with main() static function
 class GeometryTest:
     @staticmethod
     def main():
         
         shapes = []
 
-        #Created 2 objects of Rectangle Class
+        #Creates 2 objects of Rectangle Class
         rectangle1 = Rectangle ("Rectangle 1", 40, 20)
         rectangle2 = Rectangle ("Rectangle 2", 60, 30)
 
-        #Created 2 objects of Square Class
+        #Creates 2 objects of Square Class
         square1 = Square ("Square 1", 15)
         square2 = Square ("Square 2", 25)
 
@@ -24,7 +24,7 @@ class GeometryTest:
 
         print("\n")
 
-        #Display the instance variables of each object of the Rectangle class from the list using getter functions
+        #Displays the instance variables of each object of the Rectangle class from the list using getter functions
         print("Rectangle 1")
 
         print("Name: " + shapes[0].getName())
@@ -41,7 +41,7 @@ class GeometryTest:
 
         print("\n")
 
-        #Display the instance variables of each object of the Square class from the list using getter functions
+        #Displays the instance variables of each object of the Square class from the list using getter functions
         print("Square 1")
         
         print("Name: " + shapes[2].getName())
@@ -56,7 +56,7 @@ class GeometryTest:
 
         print("\n")
 
-        #Run the calculateArea() function on all the objects of the Rectangle and Square classes from the list using a for loop to demonstrate polymorphism
+        #Runs the calculateArea() function on all the objects of the Rectangle and Square classes from the list using a for loop demonstrating polymorphism
 
         for apended in shapes:
             print("\n")
@@ -64,7 +64,7 @@ class GeometryTest:
 
         print("\n")
 
-        #Run the calculatePerimeter() function on all the objects of the Rectangle class from the list using index numbers to demonstrate polymorphism
+        #Runs the calculatePerimeter() function on all the objects of the Rectangle class from the list using index numbers demonstrating polymorphism
 
         print("Rectangle 1")
         shapes[0].calculatePerimeter()
@@ -74,7 +74,7 @@ class GeometryTest:
 
         print("\n")
 
-        #Run the calculatePerimeter() function on all the objects of the Square class from the list using index numbers to demonstrate polymorphism
+        #Runs the calculatePerimeter() function on all the objects of the Square class from the list using index numbers demonstrating polymorphism
 
         print("Square 1")
         shapes[2].calculatePerimeter()
