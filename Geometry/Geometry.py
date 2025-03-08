@@ -3,7 +3,7 @@ from Rectangle import Rectangle
 from Square import Square
 
 #Creates class with main() static function
-class GeometryTest:
+class Geometry:
     @staticmethod
     def main():
         
@@ -84,4 +84,5 @@ class GeometryTest:
 
         print("\n")
 
-GeometryTest.main()
+#Calls the main function to start the program
+Geometry.main()

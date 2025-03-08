@@ -26,7 +26,7 @@ class Rectangle:
         print("Width = " + str(self.__width))
         print("Area of " + self.__name + ": " + str(area))
 
-    #Created calculatePerimiter function for Rectangle class to implement polymorphism
+    #Creates calculatePerimiter function for Rectangle class to implement polymorphism
     def calculatePerimeter(self):
         perimeter = 2 * (self.__length + self.__width)
         print("Perimeter formula = 2 x (length + width)")

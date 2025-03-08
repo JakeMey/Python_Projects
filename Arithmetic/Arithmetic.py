@@ -1,12 +1,12 @@
-#Created arithmetic class with main() static function
-class arithmetic:
+#Creates arithmetic class with main() static function
+class Arithmetic:
     @staticmethod
 
     def main():
-        #Created while loop to continuously prompt user for input
+        #Creats while loop to continuously prompt user for input
         while True:    
             
-            #Prompt user for the first number using input function
+            #Prompts user for the first number using input function
             num1 = input("Enter 1st number ")
             
             #Checks if the input is a digit
@@ -60,4 +60,4 @@ class arithmetic:
                 print("Error: Please only input an arithmetic operation. ")      
 
 #Calls the main function to start the program
-arithmetic.main()
+Arithmetic.main()

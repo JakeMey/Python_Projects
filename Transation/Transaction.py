@@ -1,4 +1,4 @@
-class transaction:
+class Transaction:
     @staticmethod
 
     def main():
@@ -65,4 +65,4 @@ class transaction:
                 break
 
 #Calls the main function to start the transaction program        
-transaction.main()
+Transaction.main()
